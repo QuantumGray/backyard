@@ -1,0 +1,4 @@
+- BackyardBrige between isolates
+    - on backyard side listens to instance streams + pushes through sendport
+    - spawn side exposes stream for every instance
+    - exposes interface for void Function(T instance)
